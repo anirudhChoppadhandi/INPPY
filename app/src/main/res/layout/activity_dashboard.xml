@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".dashboard">
+
+
+<LinearLayout
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="#FFFDD0"
+        android:id="@+id/ll1"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/personal_care"
+            android:layout_height="100dp"/>
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/snacks_beverages"
+            android:layout_height="100dp"/>
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/staples"
+            android:layout_height="100dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#FFFDD0"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center"
+        android:elevation="10dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_search_24"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+
+            android:layout_marginLeft="12sp"/>
+    </LinearLayout>
+    
+    <TextView
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Offers:"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="#FFFDD0"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_baseline_sports_esports_24"/>
+        <ImageView
+            android:background="#FFFDD0"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_baseline_shopping_bag_24"/>
+        <ImageView
+            android:background="#FFFDD0"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_baseline_whatshot_24"/>
+    </LinearLayout>
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online:"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="#FFFDD0"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_baseline_find_in_page_24"/>
+        <ImageView
+            android:background="#FFFDD0"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_baseline_shopping_cart_24"/>
+        <ImageView
+            android:background="#FFFDD0"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_baseline_qr_code_scanner_24"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="#FFFDD0"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_baseline_sports_esports_24"/>
+        <ImageView
+            android:background="#FFFDD0"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_baseline_shopping_bag_24"/>
+        <ImageView
+            android:background="#FFFDD0"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_baseline_whatshot_24"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+    
+
+</LinearLayout>
